@@ -36,7 +36,7 @@ for /f "tokens=1*" %%a in ("%t%") do (
    )
 if defined t goto :loop
    :Done
-   start "" "https://www.google.com/search?q=%name%&sourceid=chrome&ie=UTF-8&clie=1"
+   start "" "https://www.google.com/search?q=%name%&sourceid=chrome&ie=UTF-8&clie=1&hl=en"
    echo Hello
 
 endlocal
